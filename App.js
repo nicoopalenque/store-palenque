@@ -1,12 +1,12 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 
-import { StatusBar } from 'expo-status-bar';
+import CreateTaskScreen from './screens/CreateTaskScreen';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hello Coder!</Text>
-      <StatusBar style="auto" />
+      <CreateTaskScreen />
+      <SafeAreaView style='auto'/>
     </View>
   );
 }
@@ -15,7 +15,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    paddingTop: 30,
   },
 });
