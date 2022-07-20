@@ -89,11 +89,13 @@ const styles = StyleSheet.create({
   item: {
     padding: 10,
     fontSize: 18,
+    fontFamily: "RobotoLight",
     height: 44,
   },
   title: {
     fontSize: 30,
     color: "#000",
+    fontFamily: "RobotoBold",
     textAlign: "center",
   },
   action: {
